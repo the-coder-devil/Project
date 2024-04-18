@@ -1,10 +1,37 @@
+.main {
+    margin-bottom: 100px;
+    padding: 55px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.main button:hover {
+    transform: translateY(-32px); /* Slight raise effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+}
+button{
+    cursor: pointer;
+}
 .heading {
-    margin-top: 12px;
+    margin-top: 0px;
     display: flex;
-    gap: 35px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 2px;
+}
 
+/* Buttons */
+button {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #6f3b3b;
+    color: #000000;
+    transition: background-color 0.3s ease;
 }
 .firln {
     margin-top:100px;
@@ -18,7 +45,7 @@
     gap: 25px;
 }
 .secln {
-    margin-top:100px;
+    margin-top:150px;
     width: auto;
     display: flex;
     height: 100px;
@@ -29,7 +56,7 @@
     gap: 30px;
 }
 .trdln {
-    margin-top:100px;
+    margin-top:150px;
     width: auto;
     display: flex;
     height: 100px;
@@ -40,7 +67,7 @@
     gap: 10px;
 }
 .frtln{
-    margin-top:100px;
+    margin-top:150px;
     width: auto;
     display: flex;
     height: 100px;
@@ -64,6 +91,7 @@ button {
 }
 #govt {
     height: 150px;
+    width: 350px;
     background-image: url(https://imgs.search.brave.com/tLJewcGtMnRENgvpWVK69HYFWeIP1nb0_GGzGPPvoK0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdC5h/ZGRhMjQ3LmNvbS9o/dHRwczovL2FkZGEy/NDdqb2JzLXdwLWFz/c2V0cy1wcm9kLmFk/ZGEyNDcuY29tL2Fy/dGljbGVzL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIyLzExLzI0/MTczMDI3L1NjaGVt/ZXMtb2YtSW5kaWFu/LUdvdmVybm1lbnQu/anBn);
     background-repeat: no-repeat;
     background-position: center;
@@ -133,28 +161,29 @@ button {
     background-position: center;
     background-size: cover;
 }
-#aibot {
+
+.searchbar {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#log-in {
     height: 100px;
     background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-#download {
-    height: 100px;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-#search {
-    height: 100px;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-#log {
+}#download {
     height: 100px;
     background-image: url();
     background-repeat: no-repeat;
